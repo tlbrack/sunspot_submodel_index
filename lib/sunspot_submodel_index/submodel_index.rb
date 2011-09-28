@@ -30,7 +30,7 @@ module Sunspot
         def self.sunspot_submodel_index(options = {})
           include Sunspot::SubmodelIndex::InstanceMethods
           extend Sunspot::SubmodelIndex::ClassMethods
-          class_inheritable_hash :_sunspot_submodel_options
+          class_attribute :_sunspot_submodel_options
           
           options[:parent] = options[:parent].to_sym
           options[:included_attributes] =  false if options[:included_attributes].blank? #set to false if empty sent
