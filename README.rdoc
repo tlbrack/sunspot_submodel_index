@@ -66,3 +66,4 @@ Example
 == License
 
 Sunspot Submodel Index is distributed under the MIT License, copyright (c) 2011 Finetooth Enterprises, Inc.
+
