@@ -63,6 +63,12 @@ Example
 1. Sunspot
 2. ActiveRecord 2+
 
+== Tests
+
+Tests are written in RSpec and use Mocha for mocks and stubs.
+
+{<img src="http://travis-ci.org/swalterd/sunspot_submodel_index.png" />}[http://travis-ci.org/swalterd/sunspot_submodel_index]
+
 == License
 
 Sunspot Submodel Index is distributed under the MIT License, copyright (c) 2011 Finetooth Enterprises, Inc.
