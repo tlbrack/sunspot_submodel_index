@@ -40,8 +40,8 @@ module Sunspot
           self._sunspot_submodel_options = options
           
           #add call backs
-          before_save :mark_for_parent_solr_index
-          after_save :parent_solr_index
+          before_update :mark_for_parent_solr_index
+          after_update :parent_solr_index
           after_destroy :parent_solr_index_on_destroy
           
         end
